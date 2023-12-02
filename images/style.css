@@ -1,0 +1,210 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Roboto:wght@400;500;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Roboto:wght@400;500;700&display=swap');
+
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    margin: 0;
+    padding: 0;
+    font-weight: 500, 700;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    width: 72vh;
+    height: 50vh;
+    border-radius: 8px;
+}
+
+.item {
+    width: 35vh;
+    height: 50vh;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.a {
+    font-family: "Montserrat";
+    font-weight: 500 700;
+}
+
+.b {
+    font-family: "Fraunces";
+    font-weight: 700;
+}
+
+.name {
+    text-align: center;
+    margin-top: -47vh;
+    margin-left: 17vh;
+    color: hsl(228, 12%, 48%);
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.info {
+    font-size: 30px;
+    width: 190px;
+    margin-left: 39vh;
+    margin-top: 18px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    color: hsl(212, 21%, 14%);
+}
+
+.detail {
+    margin-left: 39vh;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    line-height: 22px;
+    width: 240px;
+}
+
+.cost {
+    color: hsl(158, 36%, 37%);
+    font-size: 28px;
+    margin-left: 39vh;
+    margin-top: 15px;
+    display: block;
+}
+
+.discount {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-left: 55vh;
+    margin-top: -52px;
+}
+
+button {
+    margin-left: 39vh;
+    margin-top: 15px;
+    padding: 14px 80px;
+    border-radius: 6px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    font-size: 11px;
+    font-weight: 700;
+    position: absolute;
+    letter-spacing: 2px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(157, 41%, 15%);
+}
+
+.icon {
+    position: relative;
+    margin-left: 46vh;
+    margin-top: 28px;
+}
+
+@media (max-width: 380px) {
+    .container {
+        width: 343px;
+        height: 91vh;
+        border-radius: 8px;
+        margin-top: -20px;
+    }
+    
+    .item {
+        width: 343px;
+        height: 240px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 8px;
+    }
+    
+    .name {
+        margin-top: 2.5vh;
+        margin-left: -32vh;
+    }
+    
+    .info {
+        width: 300px;
+        margin-left: 3.3vh;
+        margin-top: 6px;
+    }
+    
+    .detail {
+        margin-left: 3.4vh;
+        margin-top: -1vh;
+        width: 295px;
+    }
+    
+    .cost {
+        margin-left: 3.4vh;
+        margin-top: 2.1vh;
+        font-size: 30px;
+    }
+    
+    .discount {
+        margin-left: 25vh;
+        margin-top: -9vh;
+    }
+    
+    button {
+        margin-left: 3.4vh;
+        margin-top: 12px;
+        padding: 15px 105px;
+    }
+    
+    button:hover {
+        cursor: pointer;
+        background-color: hsl(157, 41%, 15%);
+    }
+    
+    .icon {
+        margin-left: 13vh;
+        margin-top: 24px;
+    }
+}
+
+@media (min-width: 1280px) {
+.name {
+    margin-left: 19vh;
+}
+
+.discount {
+    margin-left: 56vh;
+    margin-top: -6.5vh;
+}
+
+button {
+    margin-top: -1px;
+    padding: 12px 72px;
+}
+
+.icon {
+    position: relative;
+    margin-left: 45vh;
+    margin-top: 11px;
+}
+}
+
+@media (min-width: 1440px) {
+    .name {
+        margin-left: 19vh;
+    }
+    
+    .discount {
+        margin-left: 56vh;
+        margin-top: -6.5vh;
+    }
+    
+    button {
+        margin-top: -1px;
+        padding: 12px 72px;
+    }
+    
+    .icon {
+        position: relative;
+        margin-left: 45vh;
+        margin-top: 11px;
+    }
+    }
